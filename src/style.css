@@ -1,0 +1,19 @@
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    background: hotpink;
+    align-items: center;
+}
+
+.nav-links{
+    list-style: none;
+    font-size: larger;
+
+    
+   
+}
+
+.nav-links link {
+    text-align: center;
+    padding: 10px; }
+    
