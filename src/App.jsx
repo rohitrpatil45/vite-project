@@ -43,6 +43,7 @@ import About from './pages/About';
 import Header from './pages/Header';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
+import NotFound from './pages/NotFound';
 import "./style.css";
 
 
@@ -57,6 +58,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="*" element={<NotFound />} />  {/* Catch-all route */}
 
       </Routes>
     </div>
